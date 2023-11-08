@@ -1,0 +1,1 @@
+docker exec eis_postgres_master pg_dumpall -c -U postgres > /var/www/backup/server_db-$(date +%Y-%m-%d_%H-%m-%S).sql
